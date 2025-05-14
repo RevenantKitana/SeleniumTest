@@ -1,0 +1,6 @@
+first_names = ["Nguyen", "Tran", "Le", "Pham", "Hoang"]
+last_names = ["Van Anh", "Thi Binh", "Van Cuong", "Thi Dung", "Van Giang"]
+addresses = ["123 Ho Chi Minh St", "456 Hanoi Rd", "789 Da Nang Ave", "321 Hue St", "654 Can Tho Rd"]
+postcodes = ["700000", "100000", "550000", "530000", "900000"]
+cities = ["Ho Chi Minh", "Hanoi", "Da Nang", "Hue", "Can Tho"]
+states = ["SN48", "L1-SN23", "S1N3", "7ha 46", "DT2"]
