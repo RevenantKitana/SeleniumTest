@@ -1,0 +1,24 @@
+Mô tả Project
+Đây là một project tự động kiểm thử (automation testing) cho website "Advantage Online Shopping" sử dụng Selenium. Project tổ chức theo dạng module Python, hỗ trợ các chức năng kiểm thử như đăng ký, đăng nhập, đăng xuất, và ghi log quá trình kiểm thử.
+---
+Cấu trúc các thành phần chính
+•	main.py
+Điểm khởi đầu của chương trình. Hiển thị menu cho phép chọn các chức năng kiểm thử (đăng ký, đăng nhập, chỉ đăng nhập, thoát). Quản lý vòng lặp chương trình, khởi tạo logger và browser.
+•	tests/
+Chứa các file kiểm thử:
+•	test_register.py: Hàm kiểm thử đăng ký tài khoản.
+•	test_login.py: Hàm kiểm thử đăng nhập, đăng xuất, và chỉ đăng nhập.
+•	utils/
+Chứa các tiện ích hỗ trợ:
+•	logger.py: Thiết lập và cấu hình ghi log.
+•	browser.py: Thiết lập và đóng trình duyệt Selenium.
+•	data_generator.py: Sinh dữ liệu test tự động (ví dụ: thông tin người dùng ngẫu nhiên).
+•	file_handler.py: Xử lý đọc/ghi file nếu cần.
+•	data/
+Chứa dữ liệu test mẫu, cấu hình, hoặc dữ liệu dùng chung.
+---
+
+Thư viện
+ pip install selenium requests beautifulsoup4
+Đã có driver cho Edge, nếu dùng chrome thì thay thế (lưu ý phiên bản)
+   

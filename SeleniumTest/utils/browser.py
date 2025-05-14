@@ -5,7 +5,7 @@ import sys
 
 def setup_browser():
     # Corrected WebDriver path and filename
-    driver_path = r"E:\CNPM\Test&\msedgedriver.exe"
+    driver_path = r"E:\CNPM\Test&\SeleniumTest\msedgedriver.exe"
     
     # Verify if WebDriver exists
     if not os.path.isfile(driver_path):

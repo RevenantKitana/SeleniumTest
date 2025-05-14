@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>SeleniumTest</Name>
     <RootNamespace>SeleniumTest</RootNamespace>
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
